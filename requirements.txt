@@ -33,3 +33,4 @@ xyzservices==2025.1.0
 gunicorn
 pandas
 flask
+openpyxl
