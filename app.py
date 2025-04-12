@@ -276,7 +276,7 @@ def process_google_docs_from_excel(excel_file):
 
         if pd.isna(doc_url) or pd.isna(website_url):  # Skip empty rows
             print(f"⚠️ Skipping row {index + 1} due to missing data.")
-            results.append({"title": formatted_title,"links": editorial_links})
+            # results.append({"title": formatted_title,"links": editorial_links})
             continue
 
         file_id = extract_file_id(str(doc_url))  # Convert to string
